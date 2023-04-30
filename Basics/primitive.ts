@@ -1,6 +1,5 @@
 // number ,string  , boolean
 
-import { isNamedTupleMember } from "typescript";
 
 let num: number;
 num = 1;
@@ -45,7 +44,14 @@ console.log('person is ', person);
 let arryObject: { name: string, age: number }[];
 
 arryObject = [{ name: "amit", age: 22 }, { name: "ankit", age: 18 },]
-
+//type aliases
+//type aliases
+//type aliases
+//type aliases
+//type aliases
+//type aliases
+//type aliases
+//type aliases
 //type aliases
 
 //when we want to write dry code
@@ -60,4 +66,27 @@ let nums: (number | string | boolean)[];  //this and number |string | boolean[] 
 
 
 // nums = ['amit', 1, true];
+
+
+///function
+
+// function sum(a: number, b: number): number{
+//     return a + b;
+// }
+// console.log('sum of a and b is', sum(2, 4));
+
+const sum = (a: number, b: number):number => {
+   
+    return a + b;
+}
+
+console.log('sum is', sum(2, 3));
+
+
+//generics
+
+
+
+
+
 
